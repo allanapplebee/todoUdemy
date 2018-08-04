@@ -7,7 +7,6 @@ router.route('/')
   .get(helpers.getTodos)
   .post(helpers.createTodo)
 
-//retrieve single todo
 router.route('/:todoId')
   .get(helpers.getTodo)
   .put(helpers.updateTodo)
